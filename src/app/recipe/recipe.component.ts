@@ -17,8 +17,8 @@ export class RecipeComponent implements OnInit {
 	constructor(private recipeService: RecipeService){
 	}
 
-	private recipes:Recipe[] = [];
-	private selected:any;
+	public recipes:Recipe[] = [];
+	public selected:any;
 
 	getData() {
 		return this.recipeService

@@ -15,8 +15,8 @@ import 'rxjs/add/operator/catch';
 
 export class LandingComponent implements OnInit {
 	
-	private recipes:Recipe[] = [];
-	private selected: Recipe;
+	public recipes:Recipe[] = [];
+	public selected: Recipe;
 
 	constructor( private recipeService: RecipeService, public router: Router ){ }
 
