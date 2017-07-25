@@ -43,7 +43,7 @@ export class RecipeComponent implements OnInit {
 	ngOnInit() {
 		let selectedRecipeUrl = window.location.pathname;
 		let selectedUrlArr = selectedRecipeUrl.split('/');
-		let selectedUrl = selectedUrlArr[2];
+		let selectedUrl = selectedUrlArr[3];
 		return this.matchRecipe(selectedUrl);
 
 	}

@@ -1,8 +1,10 @@
 .main-content {
 	margin-top: 5px;
-	margin-left: 30px;
+	margin-left: 50px;
+	margin-bottom: 20px;
 	font-size: 20px;
 	font-family: 'Source Sans Pro', sans-serif;
+
 }
 .container-segments {
 	border-top: 1px solid black;
