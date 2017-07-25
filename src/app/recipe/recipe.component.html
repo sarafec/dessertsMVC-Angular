@@ -1,0 +1,12 @@
+<div *ngIf="selected" class="recipe-content">
+	<div class="recipe-title">{{selected.title}}</div>
+	<div class="servings">Makes about {{selected.servings}}</div>
+	<div class="ingredients-title">Ingredients</div>
+	<div *ngFor="let select of selected.ingredients"class="ingredient-container">
+		<div>{{select.quantity | fraction}} {{select.unit | unit}} {{select.item}} </div>
+	</div>
+	<div class="content-divider"></div>
+	<div *ngFor="let select of selected.steps" class="recipe-container">
+		<div>{{select.order}}. {{select.instruction}}</div>
+	</div>
+</div>

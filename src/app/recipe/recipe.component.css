@@ -1,0 +1,32 @@
+.recipe-title {
+	text-align: left;
+	font-size: 25px;
+	margin-left: 10px;
+}
+
+.ingredients-title {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+
+.servings {
+	margin-left: 10px;
+}
+
+.ingredient-container {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.recipe-container {
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+.content-divider {
+	margin-bottom: 50px;
+}
