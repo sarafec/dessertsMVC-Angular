@@ -15,4 +15,15 @@ import 'rxjs/add/operator/catch';
 
 export class AppComponent {
 
+	constructor( public router: Router ){ }
+
+
+	onSelect(): void {
+		this.createLandingView();
+	}
+
+	createLandingView(){
+		this.router.navigate(['/']);
+	}
+
 }

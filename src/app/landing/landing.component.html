@@ -1,5 +1,5 @@
 <div class="main-content">
-	<div *ngFor="let recipe of recipes" (click)="onSelect(recipe)"  class.active="selected == recipe" (click)="isValid =!isValid" class="dessert-item">
+	<div *ngFor="let recipe of recipes" (click)="onSelect(recipe)" (keyup.enter)="onSelect(recipe)" class.active="selected == recipe" (click)="isValid =!isValid" class="dessert-item" tabindex="2">
 	<div class="container-segments"></div>
 	{{recipe.title}}
 	</div>
